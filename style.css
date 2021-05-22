@@ -4,6 +4,7 @@ div {
     margin: 4px;
     min-height: 50px;
     min-width: 50px;
+    text-align: center;
 }
 
 /* Your main container is what houses all of your other flex elements */
