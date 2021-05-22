@@ -1,0 +1,44 @@
+div {
+    border: 1px black solid;
+    padding: 4px;
+    margin: 4px;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+/* Your main container is what houses all of your other flex elements */
+/* When youset your main container as display flex it affects all of its child elements, in this case the parent-container and the child-container */
+/* uncomment and comment different flex properties to see how they affect your html */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+}
+
+
+/* Your parent container can also be set as display flex */
+/* Any flex attributes from your parent container will override flex attributes from your main container */
+/* Use parent containers to control the flow of your document. */
+/* uncomment and comment different flex properties to see how they affect your html */
+
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    
+}
+
+
+/* Your child containers will take the effects from whatever container it is closest related to */
+/* In this instance, the child containers are taking the properties from parent-container as opposed to the main container */
+/* Try commenting the parent container flex properties and see how this affects your html */
